@@ -10,8 +10,11 @@ int gcd(int a,int b){
 
 
 
-int main(int argc, char  *argv[]){
-  cout <<"the gcd is : "<<gcd((int)argv[1],(int)argv[2])<< endl; 
+int main(){
+  cout <<gcd(250,180) <<endl;// 10
+  cout << gcd(1819,3587)<<endl;//17	
+  cout << gcd(0,5)<< endl;//5
+  cout << gcd(5,0)<< endl;//5
   return 0;
 	
 }
