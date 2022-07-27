@@ -23,7 +23,7 @@ void quad_float(float a , float b , float c ){
 
 
 int main (){
-	quad_int(1,0,-1);
+	quad_int(1,0,-1);	
 	quad_int(2,0,-2);
 
 
